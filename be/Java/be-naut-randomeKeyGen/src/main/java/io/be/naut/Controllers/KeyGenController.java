@@ -18,7 +18,8 @@ public class KeyGenController {
 
 	@GetMapping
 	public String generateRandomKey() {
-		return service.generateKeyGen();
+		return "<center>Random KeyGen</center>"
+				+ "<br><center>"+service.generateKeyGen()+"</center>";
 	}
 
 }
