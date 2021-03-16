@@ -9,8 +9,15 @@
     left: 0;
 }
 
-.mains{
+.workspace{
     display: flex;
-    margin-top:9px;
+    margin-top:0px;
     justify-content: center;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+
 }

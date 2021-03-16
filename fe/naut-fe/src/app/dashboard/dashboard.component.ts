@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {HeaderComponent} from '../header/header.component'
+import {WorkspaceComponent} from '../workspace/workspace.component'
 @Component({
   selector: 'app-dashboard',
   templateUrl: './dashboard.component.html',
