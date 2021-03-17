@@ -12,8 +12,8 @@ export class DashboardComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  goToLink(url){
-    let vaar = window.open("https://google.com", "_blank", 'height=700,width=700');
+  goToLink(){
+   window.open("https://google.com", "_blank", 'height=700,width=700');
   }
 
 }

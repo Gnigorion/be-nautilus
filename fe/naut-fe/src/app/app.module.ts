@@ -6,6 +6,10 @@ import { AppComponent } from './app.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { HeaderComponent } from './header/header.component';
 import { WorkspaceComponent } from './workspace/workspace.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatSidenavModule} from '@angular/material/sidenav';
+import { MatListModule } from '@angular/material/list';
+
 
 @NgModule({
   declarations: [
@@ -16,7 +20,9 @@ import { WorkspaceComponent } from './workspace/workspace.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatSidenavModule,MatListModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
