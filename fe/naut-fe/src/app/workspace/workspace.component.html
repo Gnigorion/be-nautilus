@@ -1,14 +1,18 @@
-<div class="aa">
-    <mat-sidenav-container>
-        <mat-sidenav mode="side" opened>
-            <div class="matListDiv">
-                <mat-list>Join Room</mat-list>
-                <mat-list>Host Room</mat-list>
-                <mat-list>Stream</mat-list>
-                <mat-list>Interest</mat-list>
-                <mat-list>Premium</mat-list>
-            </div>
+<div class="workspace">
+    <mat-sidenav-container class="sideNavCOntainer">
+        <mat-sidenav class="sidenav" mode="side" opened>
+           <div class="sidenavlist">
+               <mat-list class="sideNavListItem" >
+                   <a *ngFor="let obj of sideNavListItems" mat-list-item (click)="changeName(obj.name)">{{obj.name}}</a>
+               </mat-list>
+           </div>
+           <div class="logout">
+                <mat-list class="logoutItem" >
+                   <a mat-list-item>Logout</a>
+                </mat-list>
+            </div> 
         </mat-sidenav>
-        <mat-sidenav-content>Main content</mat-sidenav-content>
+        <mat-sidenav-content>{{name}}</mat-sidenav-content>
     </mat-sidenav-container>
 </div>
+

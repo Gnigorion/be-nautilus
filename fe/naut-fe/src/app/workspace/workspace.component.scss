@@ -1,7 +1,4 @@
-.workaspacee{
-  
-}
-.aa{
+.workspace{
     height: 100%;
 }
 
@@ -18,9 +15,30 @@ mat-sidenav-container {
      margin-left: 300px;
  }
  mat-list{
-     height: 40px;
-     text-align: center;
+    cursor: pointer;
+    height: 40px;
+    text-align: left;
  }
- .matListDiv{
-     margin-top: 20px;
- }
+
+.sidenav {
+    width : 290px;
+}
+.sideNavListItem :hover {
+    margin-top: 0px;
+    background-color: rgba(218, 214, 214, 0.795);
+}
+.sidenavlist {
+    margin-top:  0px;
+}
+.mat-list-base {
+    padding-top: 0px;
+    display: block;
+    -webkit-tap-highlight-color: transparent;
+}
+.logout  {
+  margin-top: 495px;
+
+}
+.logoutItem :hover{
+    background-color: rgba(218, 214, 214, 0.795);
+}
