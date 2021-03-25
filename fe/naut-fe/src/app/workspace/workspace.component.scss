@@ -21,7 +21,7 @@ mat-sidenav-container {
  }
 
 .sidenav {
-    width : 290px;
+    width : 177px;
 }
 .sideNavListItem :hover {
     margin-top: 0px;
@@ -40,4 +40,13 @@ mat-sidenav-container {
 }
 .logoutItem :hover{
     background-color: rgba(218, 214, 214, 0.795);
+}
+.active{
+    background-color: rgba(218, 214, 214, 0.795);
+    border: 1px solid rgb(43, 131, 226);
+  
+  }
+  .mat-list-base .mat-list-item {
+    font-size: 16px;
+    text-decoration: none;
 }

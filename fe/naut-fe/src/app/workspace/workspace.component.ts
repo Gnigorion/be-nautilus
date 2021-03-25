@@ -8,7 +8,13 @@ import { Component, OnInit } from '@angular/core';
 export class WorkspaceComponent implements OnInit {
 
   constructor() { }
-  sideNavListItems = [{ "name": "Feeds" },{"name":"Friends"}, { "name": "Room" }, { "name": "Stream" }, { "name": "Interest" }, { "name": "Premium" }]
+  sideNavListItems = [
+    { 'name': 'Feed', 'route': 'feeds' }, 
+    { 'name': 'Friends', 'route': 'friends' }, 
+    { 'name': 'Room', 'route': 'room' }, 
+    { 'name': 'Stream', 'route': 'stream' }, 
+    { 'name': 'Interest', 'route': 'interest' }, 
+    { 'name': 'Premium', 'route': 'premium' }]
   ngOnInit(): void {
   }
   name: string

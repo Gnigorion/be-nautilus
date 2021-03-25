@@ -10,6 +10,11 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSidenavModule} from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
 import { FeedsComponent } from './workspace/feeds/feeds.component';
+import { FriendsComponent } from './workspace/friends/friends.component';
+import { RoomComponent } from './workspace/room/room.component';
+import { StreamComponent } from './workspace/stream/stream.component';
+import { InterestComponent } from './workspace/interest/interest.component';
+import { PremiumComponent } from './workspace/premium/premium.component';
 
 
 @NgModule({
@@ -18,7 +23,12 @@ import { FeedsComponent } from './workspace/feeds/feeds.component';
     DashboardComponent,
     HeaderComponent,
     WorkspaceComponent,
-    FeedsComponent
+    FeedsComponent,
+    FriendsComponent,
+    RoomComponent,
+    StreamComponent,
+    InterestComponent,
+    PremiumComponent
   ],
   imports: [
     BrowserModule,
