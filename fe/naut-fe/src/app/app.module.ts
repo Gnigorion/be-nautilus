@@ -9,6 +9,7 @@ import { WorkspaceComponent } from './workspace/workspace.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSidenavModule} from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
+import { FeedsComponent } from './workspace/feeds/feeds.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { MatListModule } from '@angular/material/list';
     AppComponent,
     DashboardComponent,
     HeaderComponent,
-    WorkspaceComponent
+    WorkspaceComponent,
+    FeedsComponent
   ],
   imports: [
     BrowserModule,

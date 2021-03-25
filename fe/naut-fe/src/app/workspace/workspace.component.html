@@ -4,6 +4,7 @@
            <div class="sidenavlist">
                <mat-list class="sideNavListItem" >
                    <a *ngFor="let obj of sideNavListItems" mat-list-item (click)="changeName(obj.name)">{{obj.name}}</a>
+                   <!-- expansion panel for Room -> 2 sublist as create room or join room -->
                </mat-list>
            </div>
            <div class="logout">
