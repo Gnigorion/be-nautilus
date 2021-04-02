@@ -9,6 +9,7 @@ import { WorkspaceComponent } from './workspace/workspace.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSidenavModule} from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
+import { MatCardModule } from '@angular/material/card'
 import { FeedsComponent } from './workspace/feeds/feeds.component';
 import { FriendsComponent } from './workspace/friends/friends.component';
 import { RoomComponent } from './workspace/room/room.component';
@@ -34,7 +35,7 @@ import { PremiumComponent } from './workspace/premium/premium.component';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatSidenavModule,MatListModule,
+    MatSidenavModule,MatListModule,MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
