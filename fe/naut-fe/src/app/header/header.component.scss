@@ -29,12 +29,21 @@ body {
   }
 
  .searchBox{
-    margin: 13px;
-    color: black;
+    color: ghostwhite(0, 0, 0);
+    background-color: white;
     flex-grow: 2;
-    width: 410px;
+   // width: 410px;
  }
  .uiavatar{
     width: 27px;
     padding-right: 14px;
  }
+ .mat-form-field{
+   color: black;
+ }
+ .mat-form-field-appearance-outline .mat-form-field-outline {
+  color:cyan;
+}
+input.mat-input-element {
+  color:black;
+}
