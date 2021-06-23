@@ -12,7 +12,10 @@ import { MatListModule } from '@angular/material/list';
 import { MatCardModule } from '@angular/material/card'
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
-import { MatIconModule } from '@angular/material/icon'
+import { MatIconModule } from '@angular/material/icon';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import {MatButtonModule} from '@angular/material/button';
+import {MatButtonToggleModule} from '@angular/material/button-toggle';
 
 import { FeedsComponent } from './workspace/feeds/feeds.component';
 import { FriendsComponent } from './workspace/friends/friends.component';
@@ -40,13 +43,17 @@ import { PremiumComponent } from './workspace/premium/premium.component';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatSidenavModule, 
-    MatListModule, 
-    MatCardModule, 
+    MatSidenavModule,
+    MatListModule,
+    MatCardModule,
     MatFormFieldModule,
     MatInputModule,
     MatIconModule,
-    FormsModule
+    FormsModule,
+    MatToolbarModule,
+    MatButtonModule,
+
+    MatButtonToggleModule
 
   ],
   providers: [],

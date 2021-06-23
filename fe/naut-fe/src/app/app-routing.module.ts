@@ -9,7 +9,7 @@ import { RoomComponent } from './workspace/room/room.component';
 import { StreamComponent } from './workspace/stream/stream.component';
 
 const routes: Routes = [
-  { path:'dashboard', 
+  { path:'dashboard',
     component:DashboardComponent,
     children:[
       {
