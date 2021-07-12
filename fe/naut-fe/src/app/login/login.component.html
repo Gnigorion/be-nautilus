@@ -1,0 +1,28 @@
+<div class="background-image">
+  <mat-card class="card">
+    <div class="card-elements">
+      <!-- Login form -->
+      <form [formGroup]="userForm">
+          <mat-form-field appearance="outline" [style.width.%]="100">
+            <mat-label>Enter your email</mat-label>
+            <input formControlName="email" matInput placeholder="email" required>
+          </mat-form-field>
+          <mat-form-field appearance="outline" [style.width.%]="100">
+            <mat-label>Enter your password</mat-label>
+            <input formControlName="password" matInput placeholder="Password" [type]="'password'" required>
+          </mat-form-field>
+        <button class="login" mat-raised-button color="primary">Login</button>
+      </form>
+      <div class="non-form-group">
+        <span>OR</span>
+        <!-- Login with google -->
+        <div class="social-login">
+          <img src="../../assets/google.png" class="google-img">
+          Login with Google
+        </div>
+        <!-- Register button -->
+        <button  class="link">I'm new here</button>
+      </div>
+    </div>
+  </mat-card>
+</div>

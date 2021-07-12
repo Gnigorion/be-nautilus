@@ -14,8 +14,9 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatIconModule } from '@angular/material/icon';
 import { MatToolbarModule } from '@angular/material/toolbar';
-import {MatButtonModule} from '@angular/material/button';
-import {MatButtonToggleModule} from '@angular/material/button-toggle';
+import { MatButtonModule } from '@angular/material/button';
+import { MatButtonToggleModule } from '@angular/material/button-toggle';
+import { ReactiveFormsModule } from '@angular/forms';
 
 import { FeedsComponent } from './workspace/feeds/feeds.component';
 import { FriendsComponent } from './workspace/friends/friends.component';
@@ -23,6 +24,7 @@ import { RoomComponent } from './workspace/room/room.component';
 import { StreamComponent } from './workspace/stream/stream.component';
 import { InterestComponent } from './workspace/interest/interest.component';
 import { PremiumComponent } from './workspace/premium/premium.component';
+import { LoginComponent } from './login/login.component';
 
 
 
@@ -37,7 +39,8 @@ import { PremiumComponent } from './workspace/premium/premium.component';
     RoomComponent,
     StreamComponent,
     InterestComponent,
-    PremiumComponent
+    PremiumComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
@@ -52,7 +55,7 @@ import { PremiumComponent } from './workspace/premium/premium.component';
     FormsModule,
     MatToolbarModule,
     MatButtonModule,
-
+    ReactiveFormsModule,
     MatButtonToggleModule
 
   ],

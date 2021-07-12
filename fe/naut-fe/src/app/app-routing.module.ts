@@ -7,7 +7,7 @@ import { InterestComponent } from './workspace/interest/interest.component';
 import { PremiumComponent } from './workspace/premium/premium.component';
 import { RoomComponent } from './workspace/room/room.component';
 import { StreamComponent } from './workspace/stream/stream.component';
-
+import { LoginComponent } from './login/login.component'
 const routes: Routes = [
   { path:'dashboard',
     component:DashboardComponent,
@@ -38,6 +38,10 @@ const routes: Routes = [
       }
     ]
 
+  },
+  {
+    path:'login',
+    component:LoginComponent
   }
 ];
 

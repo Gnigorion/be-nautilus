@@ -1,0 +1,64 @@
+.background-image {
+  height:100%;
+  width:auto;
+  background-size:cover;
+  background-position:50% 50%;
+  background-image: url('/assets/mountains.jpg');
+}
+.card{
+  left: 5%;
+  position: absolute;
+  top: 50%;
+  height: 50%;
+  width:25%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.pointer{
+  cursor: pointer;
+}
+
+mat-form-field:first-of-type{
+  margin-top:10%;
+}
+.card-elements{
+  padding: 0 5%;
+}
+
+button.link {
+  background:none;
+  border:none;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+button.login {
+  width: 100%
+}
+
+.social-login{
+  cursor: pointer;
+  display: flex;
+  border: 1px solid #e8e8e8;
+  border-radius: 5%;
+  height:40px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.non-form-group{
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+.non-form-group > div, .non-form-group > span, .non-form-group > button {
+  margin-top: 10px;
+}
+.google-img{
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+}
